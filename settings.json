@@ -1,0 +1,6 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.rulers": [80],
+    "editor.tabSize": 2,
+    "files.insertFinalNewline": true
+}
