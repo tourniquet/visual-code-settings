@@ -1,9 +1,15 @@
 {
     "workbench.iconTheme": "vscode-icons",
-    "editor.cursorStyle": "block",
+    "editor.cursorStyle": "line",
     "editor.rulers": [80],
     "editor.tabSize": 2,
     "editor.smoothScrolling": true,
+    "editor.tabCompletion": true,
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+      },
     "files.insertFinalNewline": true,
     "workbench.startupEditor": "newUntitledFile",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
@@ -12,5 +18,20 @@
     "php.suggest.basic": false,
     "php.executablePath": "C:\\php7\\php.exe",
     "php.validate.executablePath": "C:\\php7\\php.exe",
-    "files.autoSave": "off"
+    "files.autoSave": "off",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Hopscotch",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "typescript.validate.enable": false,
+    "typescript.showUnused": false
 }
